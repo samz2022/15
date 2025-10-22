@@ -1,0 +1,39 @@
+MIPS32 FIRMWARE SECTIONS EXTRACTED FROM DATA TABLE
+=======================================================
+
+Source firmware: 3821568 bytes
+Data table: 0x0001b000 - 0x0001b940
+Total addresses in data table: 592
+
+MAJOR SECTIONS:
+--------------------
+boot            boot_section_0x00000000.bin    (   65536 bytes)
+kernel          kernel_section_0x00010000.bin  (  983040 bytes)
+config_area     config_area_0x00380000.bin     (  131072 bytes)
+
+KSEG0 SECTIONS (3):
+-------------------------
+0x80000000 -> kseg0_section_0x80000000.bin        (   65536 bytes)
+0x8000005d -> kseg0_section_0x8000005d.bin        (   65536 bytes)
+0x80010000 -> kseg0_section_0x80010000.bin        (   65536 bytes)
+
+INTERNAL SECTIONS (11):
+------------------------------
+0x00000000 -> internal_section_0x00000000.bin     (   32768 bytes)
+0x00000001 -> internal_section_0x00000001.bin     (   32768 bytes)
+0x00000030 -> internal_section_0x00000030.bin     (   32768 bytes)
+0x00002000 -> internal_section_0x00002000.bin     (   32768 bytes)
+0x0001b924 -> internal_section_0x0001b924.bin     (   32768 bytes)
+0x00066ad5 -> internal_section_0x00066ad5.bin     (   32768 bytes)
+0x000823fc -> internal_section_0x000823fc.bin     (   32768 bytes)
+0x00139410 -> internal_section_0x00139410.bin     (   32768 bytes)
+0x0030ceb0 -> internal_section_0x0030ceb0.bin     (   32768 bytes)
+0x0038f2ac -> internal_section_0x0038f2ac.bin     (   32768 bytes)
+0x00390000 -> internal_section_0x00390000.bin     (   32768 bytes)
+
+CONFIG SECTIONS (1):
+----------------------------
+0x0038f2ac -> config_section_0x0038f2ac.bin       (   16384 bytes)
+
+TOTAL EXTRACTED: 1753088 bytes
+COVERAGE: 45.9%

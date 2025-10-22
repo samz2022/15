@@ -1,0 +1,259 @@
+{
+  "firmware_info": {
+    "total_size": 3821568,
+    "data_table_start": 110592,
+    "data_table_size": 2368,
+    "total_addresses": 592
+  },
+  "address_categories": {
+    "kseg0_count": 87,
+    "kseg1_count": 2,
+    "kuseg_count": 7,
+    "internal_count": 495,
+    "special_count": 80,
+    "config_count": 80
+  },
+  "extracted_sections": {
+    "major_sections": {
+      "boot": {
+        "file": "boot_section_0x00000000.bin",
+        "start": 0,
+        "size": 65536,
+        "description": "Boot vectors and initialization"
+      },
+      "kernel": {
+        "file": "kernel_section_0x00010000.bin",
+        "start": 65536,
+        "size": 983040,
+        "description": "MIPS32 kernel code"
+      },
+      "config_area": {
+        "file": "config_area_0x00380000.bin",
+        "start": 3670016,
+        "size": 131072,
+        "description": "Configuration and settings area"
+      }
+    },
+    "kseg0_sections": {
+      "2147549184": {
+        "file": "kseg0_section_0x80010000.bin",
+        "virtual_addr": 2147549184,
+        "physical_addr": 65536,
+        "size": 65536,
+        "data_table_offset": 110616
+      },
+      "2147483648": {
+        "file": "kseg0_section_0x80000000.bin",
+        "virtual_addr": 2147483648,
+        "physical_addr": 0,
+        "size": 65536,
+        "data_table_offset": 112892
+      },
+      "2147483741": {
+        "file": "kseg0_section_0x8000005d.bin",
+        "virtual_addr": 2147483741,
+        "physical_addr": 93,
+        "size": 65536,
+        "data_table_offset": 112932
+      }
+    },
+    "internal_sections": {
+      "1": {
+        "file": "internal_section_0x00000001.bin",
+        "address": 1,
+        "size": 32768,
+        "data_table_offset": 110596
+      },
+      "0": {
+        "file": "internal_section_0x00000000.bin",
+        "address": 0,
+        "size": 32768,
+        "data_table_offset": 112940
+      },
+      "112932": {
+        "file": "internal_section_0x0001b924.bin",
+        "address": 112932,
+        "size": 32768,
+        "data_table_offset": 110608
+      },
+      "420565": {
+        "file": "internal_section_0x00066ad5.bin",
+        "address": 420565,
+        "size": 32768,
+        "data_table_offset": 110612
+      },
+      "1283088": {
+        "file": "internal_section_0x00139410.bin",
+        "address": 1283088,
+        "size": 32768,
+        "data_table_offset": 110620
+      },
+      "533500": {
+        "file": "internal_section_0x000823fc.bin",
+        "address": 533500,
+        "size": 32768,
+        "data_table_offset": 110636
+      },
+      "3198640": {
+        "file": "internal_section_0x0030ceb0.bin",
+        "address": 3198640,
+        "size": 32768,
+        "data_table_offset": 110640
+      },
+      "3732140": {
+        "file": "internal_section_0x0038f2ac.bin",
+        "address": 3732140,
+        "size": 32768,
+        "data_table_offset": 112876
+      },
+      "48": {
+        "file": "internal_section_0x00000030.bin",
+        "address": 48,
+        "size": 32768,
+        "data_table_offset": 112888
+      },
+      "3735552": {
+        "file": "internal_section_0x00390000.bin",
+        "address": 3735552,
+        "size": 32768,
+        "data_table_offset": 112904
+      },
+      "8192": {
+        "file": "internal_section_0x00002000.bin",
+        "address": 8192,
+        "size": 32768,
+        "data_table_offset": 112916
+      }
+    },
+    "config_sections": {
+      "3732140": {
+        "file": "config_section_0x0038f2ac.bin",
+        "address": 3732140,
+        "size": 16384,
+        "data_table_offset": 112876
+      }
+    }
+  },
+  "data_table_addresses": [
+    {
+      "firmware_offset": 110592,
+      "raw_bytes": "72080aa9",
+      "address": 2836007026,
+      "index": 0
+    },
+    {
+      "firmware_offset": 110596,
+      "raw_bytes": "01000000",
+      "address": 1,
+      "index": 1
+    },
+    {
+      "firmware_offset": 110600,
+      "raw_bytes": "00000040",
+      "address": 1073741824,
+      "index": 2
+    },
+    {
+      "firmware_offset": 110604,
+      "raw_bytes": "00000000",
+      "address": 0,
+      "index": 3
+    },
+    {
+      "firmware_offset": 110608,
+      "raw_bytes": "24b90100",
+      "address": 112932,
+      "index": 4
+    },
+    {
+      "firmware_offset": 110612,
+      "raw_bytes": "d56a0600",
+      "address": 420565,
+      "index": 5
+    },
+    {
+      "firmware_offset": 110616,
+      "raw_bytes": "00000180",
+      "address": 2147549184,
+      "index": 6
+    },
+    {
+      "firmware_offset": 110620,
+      "raw_bytes": "10941300",
+      "address": 1283088,
+      "index": 7
+    },
+    {
+      "firmware_offset": 110624,
+      "raw_bytes": "02000080",
+      "address": 2147483650,
+      "index": 8
+    },
+    {
+      "firmware_offset": 110628,
+      "raw_bytes": "00000000",
+      "address": 0,
+      "index": 9
+    },
+    {
+      "firmware_offset": 110632,
+      "raw_bytes": "f5ed0e15",
+      "address": 353299957,
+      "index": 10
+    },
+    {
+      "firmware_offset": 110636,
+      "raw_bytes": "fc230800",
+      "address": 533500,
+      "index": 11
+    },
+    {
+      "firmware_offset": 110640,
+      "raw_bytes": "b0ce3000",
+      "address": 3198640,
+      "index": 12
+    },
+    {
+      "firmware_offset": 110644,
+      "raw_bytes": "e8375680",
+      "address": 2153134056,
+      "index": 13
+    },
+    {
+      "firmware_offset": 110648,
+      "raw_bytes": "185d8f00",
+      "address": 9395480,
+      "index": 14
+    },
+    {
+      "firmware_offset": 110652,
+      "raw_bytes": "02000081",
+      "address": 2164260866,
+      "index": 15
+    },
+    {
+      "firmware_offset": 110656,
+      "raw_bytes": "00000000",
+      "address": 0,
+      "index": 16
+    },
+    {
+      "firmware_offset": 110660,
+      "raw_bytes": "76ae26aa",
+      "address": 2854661750,
+      "index": 17
+    },
+    {
+      "firmware_offset": 110664,
+      "raw_bytes": "acf23800",
+      "address": 3732140,
+      "index": 18
+    },
+    {
+      "firmware_offset": 110668,
+      "raw_bytes": "00000000",
+      "address": 0,
+      "index": 19
+    }
+  ]
+}
